@@ -1,0 +1,48 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.github.dominikstec.designpatternify</id>
+    <name>Design-Patternify</name>
+    <vendor>dominik-stec</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.kotlin</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+        <notificationGroup id="DesignPatternify.NotificationGroup"
+                           displayType="BALLOON" />
+    </extensions>
+
+    <!-- Create a group for UI actions. -->
+    <actions>
+        <group
+                id="DesignPatternify.ActionGroup"
+                text="Design Patternify"
+                popup="true"
+                icon="/icons/ic_extension.svg">
+            <add-to-group group-id="ToolsMenu" anchor="first" />
+            <!-- DP Observer -->
+            <action id="designpatternify.gui.ActionObserver" class="com.github.dominikstec.designpatternify.gui.ActionObserver"
+                    description="Generuje kod wzorca projektowego obserwator" text="Design Pattern Observer" icon="/icons/ic_extension.svg" >
+                <keyboard-shortcut first-keystroke="ctrl alt 1" keymap="$default" />
+            </action>
+            <!-- DP Decorator -->
+            <action id="designpatternify.gui.ActionDecorator" class="com.github.dominikstec.designpatternify.gui.ActionDecorator" text="Design Pattern Decorator"
+                    description="Generuje kod wzorca projektowego dekorator" icon="/icons/ic_extension.svg" >
+                <keyboard-shortcut first-keystroke="ctrl alt 2" keymap="$default" />
+            </action>
+            <!-- DP Adapter -->
+            <action id="designpatternify.gui.ActionAdapter" class="com.github.dominikstec.designpatternify.gui.ActionAdapter" text="Design Pattern Adapter"
+                    description="Generuje kod wzorca projektowego adapter" icon="/icons/ic_extension.svg" >
+                <keyboard-shortcut first-keystroke="ctrl alt 3" keymap="$default" />
+            </action>
+            <!-- DP Factory -->
+            <action id="designpatternify.ui.ActionFactory" class="com.github.dominikstec.designpatternify.gui.ActionFactory"
+                    text="Design Pattern Factory" description="Generuje kod wzorca projektowego fabryka"
+                    icon="/icons/ic_extension.svg" >
+                <keyboard-shortcut first-keystroke="ctrl alt 4" keymap="$default" />
+            </action>
+        </group>
+        
+    </actions>
+</idea-plugin>
