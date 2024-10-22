@@ -24,14 +24,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://gdansk.pja.edu.pl/pl/">
-    <img src="images/logo.jpg" alt="Logo" width="540" height="80">
+  <a href="https://pja.edu.pl/">
+    <img src="images/logo_waw.jpg" alt="Logo" width="540" height="80">
   </a>
 
   <h2 align="center">Master of Science (MSc) degree project</h2>
 
   <p align="center">
-    <h3> A Generic Plugin for Automating the Implementation of Design Patterns in Integrated Development Environments for Polish-Japanese Academy of Information Technology </h3>
+    <h4> A Generic Plugin for Automating the Implementation of Design Patterns in Integrated Development Environments for Polish-Japanese Academy of Information Technology </h4>
     <!-- <br />
     <a href="https://github.com/dccstcc/SoftDrive_doc"><strong>» go to DOCUMENT »</strong></a>
     <br />
@@ -56,6 +56,8 @@ This project use technology below.
 
 - [![java][java-shield]][java-url]
 - [![kotlin][kotlin-shield]][kotlin-url]
+- [![intellij][intellij-shield]][intellij-url]
+
 
 <!-- LICENSE -->
 
@@ -113,4 +115,6 @@ Project URL:
 [java-url]: https://www.java.com/en/
 [kotlin-shield]: https://img.shields.io/badge/-Kotlin-blue
 [kotlin-url]: https://kotlinlang.org/
+[intellij-shield]: https://img.shields.io/badge/-IntelliJ-Platform-SDK-white
+[intellij-url]: https://plugins.jetbrains.com/docs/intellij/welcome.html
 
