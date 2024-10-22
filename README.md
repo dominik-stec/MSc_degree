@@ -1,44 +1,116 @@
-# Design-Patternify
+<!--
+*** Thanks for checking out c. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-![Build](https://github.com/dominik-stec/Design-Patternify/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get familiar with the [template documentation][template].
-- [ ] Adjust the [pluginGroup](./gradle.properties), [plugin ID](./src/main/resources/META-INF/plugin.xml) and [sources package](./src/main/kotlin).
-- [ ] Adjust the plugin description in `README` (see [Tips][docs:plugin-description])
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the `PLUGIN_ID` in the above README badges.
-- [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![NO LICENSE][license-shield]][license-url]
 
-<!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://gdansk.pja.edu.pl/pl/">
+    <img src="images/logo.jpg" alt="Logo" width="540" height="80">
+  </a>
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+  <h2 align="center">Master of Science (MSc) degree project</h2>
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
-<!-- Plugin description end -->
+  <p align="center">
+    <h3> A Generic Plugin for Automating the Implementation of Design Patterns in Integrated Development Environments for Polish-Japanese Academy of Information Technology </h3>
+    <!-- <br />
+    <a href="https://github.com/dccstcc/SoftDrive_doc"><strong>» go to DOCUMENT »</strong></a>
+    <br />
+    <br /> -->
+    <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
+  </p>
+</p>
 
-## Installation
+<!-- ABOUT THE PROJECT -->
 
-- Using the IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Design-Patternify"</kbd> >
-  <kbd>Install</kbd>
-  
-- Manually:
+## Project description
 
-  Download the [latest release](https://github.com/dominik-stec/Design-Patternify/releases/latest) and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+This work describes the topic of design patterns used in modern programming languages. The advantages and disadvantages of their implementation were presented and the theoretical aspects of the patterns were presented. The constructed prototype generates individualized code templates with design patterns ready for integration. Pre-configuration of the generated pattern code through the generator parameterization mechanism facilitates integration with existing code. The parameters provided during configuration increase the compatibility of both implementations. Ways to integrate ready-made templates with existing design solutions were analyzed. The proposed solution was compared in terms of innovation with similar, already existing solutions. A positive effect of generating pattern templates is the lower consumption of resources necessary for their implementation in IT projects. The presented work describes: implementation, functionality and tools used to construct the prototype. The author of the work tries to show the benefits and possibilities of automating the process of implementing design patterns in integrated programming environments.
 
+## Libraries and frameworks
 
----
-Plugin based on the [IntelliJ Platform Plugin Template][template].
+This project use technology below.
 
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
-[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation
+- [![java][java-shield]][java-url]
+- [![kotlin][kotlin-shield]][kotlin-url]
+
+<!-- LICENSE -->
+
+## License
+
+This project has not a license.
+All rights are reserved and it is not Open Source or free. You cannot modify or redistribute this code without explicit permission from the copyright holder, because projects which I realised are private conception from PJATK studies.
+See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Dominik Stec - dccstcc@gmail.com
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+Project URL:
+<br />
+`https://github.com/dominik-stec/MSc_degree.git`
+
+<!-- ACKNOWLEDGEMENTS
+## Acknowledgements
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Img Shields](https://shields.io)
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Pages](https://pages.github.com)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Loaders.css](https://connoratherton.com/loaders)
+* [Slick Carousel](https://kenwheeler.github.io/slick)
+* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+* [Sticky Kit](http://leafo.net/sticky-kit)
+* [JVectorMap](http://jvectormap.com)
+* [Font Awesome](https://fontawesome.com)
+
+-->
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/dominik-stec/MSc_degree.svg?style=for-the-badge
+[contributors-url]: https://github.com/dominik-stec/MSc_degree/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dominik-stec/MSc_degree.svg?style=for-the-badge
+[forks-url]: https://github.com/dominik-stec/MSc_degree/network/members
+[stars-shield]: https://img.shields.io/github/stars/dominik-stec/MSc_degree.svg?style=for-the-badge
+[stars-url]: https://github.com/dominik-stec/MSc_degree/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dominik-stec/MSc_degree.svg?style=for-the-badge
+[issues-url]: https://github.com/dominik-stec/MSc_degree/issues
+[license-shield]: https://img.shields.io/badge/License-NONE-orange
+[license-url]: https://github.com/dominik-stec/MSc_degree/blob/master/LICENSE.md
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/dominik-stec
+[product-screenshot]: images/screenshot.png
+[java-shield]: https://img.shields.io/badge/-Java-red
+[java-url]: https://www.java.com/en/
+[kotlin-shield]: https://img.shields.io/badge/-Kotlin-blue
+[kotlin-url]: https://kotlinlang.org/
+
