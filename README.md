@@ -25,13 +25,13 @@
 <br />
 <p align="center">
   <a href="https://pja.edu.pl/">
-    <img src="images/logo_waw.png" alt="Logo" width="540" height="80">
+    <img src="images/logo_waw.png" alt="Logo" width="540" height="100">
   </a>
 
   <h2 align="center">Master of Science (MSc) degree project</h2>
 
   <p align="center">
-    <h4> A Generic Plugin for Automating the Implementation of Design Patterns in Integrated Development Environments for <br /> Polish-Japanese Academy of Information Technology </h4>
+    <h4> A Generic Plugin for Automating the Implementation of Design Patterns in Integrated Development Environments for Polish-Japanese Academy of Information Technology </h4>
     <!-- <br />
     <a href="https://github.com/dccstcc/SoftDrive_doc"><strong>» go to DOCUMENT »</strong></a>
     <br />
@@ -48,7 +48,9 @@
 
 ## Project description
 
-This work describes the topic of design patterns used in modern programming languages. The advantages and disadvantages of their implementation were presented and the theoretical aspects of the patterns were presented. The constructed prototype generates individualized code templates with design patterns ready for integration. Pre-configuration of the generated pattern code through the generator parameterization mechanism facilitates integration with existing code. The parameters provided during configuration increase the compatibility of both implementations. Ways to integrate ready-made templates with existing design solutions were analyzed. The proposed solution was compared in terms of innovation with similar, already existing solutions. A positive effect of generating pattern templates is the lower consumption of resources necessary for their implementation in IT projects. The presented work describes: implementation, functionality and tools used to construct the prototype. The author of the work tries to show the benefits and possibilities of automating the process of implementing design patterns in integrated programming environments.
+<p>
+  This work describes the topic of design patterns used in modern programming languages. The advantages and disadvantages of their implementation were presented and the theoretical aspects of the patterns were presented. The constructed prototype generates individualized code templates with design patterns ready for integration. Pre-configuration of the generated pattern code through the generator parameterization mechanism facilitates integration with existing code. The parameters provided during configuration increase the compatibility of both implementations. Ways to integrate ready-made templates with existing design solutions were analyzed. The proposed solution was compared in terms of innovation with similar, already existing solutions. A positive effect of generating pattern templates is the lower consumption of resources necessary for their implementation in IT projects. The presented work describes: implementation, functionality and tools used to construct the prototype. The author of the work tries to show the benefits and possibilities of automating the process of implementing design patterns in integrated programming environments.
+</p>
 
 ## Libraries and frameworks
 
@@ -115,6 +117,6 @@ Project URL:
 [java-url]: https://www.java.com/en/
 [kotlin-shield]: https://img.shields.io/badge/-Kotlin-blue
 [kotlin-url]: https://kotlinlang.org/
-[intellij-shield]: https://img.shields.io/badge/-IntelliJPlatformSDK-white
+[intellij-shield]: https://img.shields.io/badge/-IntelliJPlatformSDK-gold
 [intellij-url]: https://plugins.jetbrains.com/docs/intellij/welcome.html
 
